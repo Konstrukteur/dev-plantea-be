@@ -1,0 +1,7 @@
+# ignore secrets
+.env
+.env.development
+.env.production
+
+# ignore node modules
+/node_modules
