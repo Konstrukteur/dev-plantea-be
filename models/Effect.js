@@ -31,7 +31,7 @@ const Effect = sequelize.define(
     timestamps: true, // enable timestamps
     createdAt: "created_at", // customize name of createdAt field
     updatedAt: "updated_at", // customize name of updatedAt field
-    // tableName: "effects",
+    tableName: "effects",
   }
 );
 
